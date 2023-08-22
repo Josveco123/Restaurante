@@ -64,13 +64,23 @@ h6 {
   font-size: bold;
   border-radius: 2px;
 }
+/* aqui va el contenedor general de body*/
+
+#contenedor {
+ display: flex; 
+ flex-direction: column;
+
+}
 
 /* Header Restaurante */
 
 header {
   position: fixed;
   z-index: 99;
+
 }
+
+
 .main-header {
   top: 0;
   width: 100%;
@@ -106,7 +116,7 @@ header {
 #pagina_1 {
   position: relative;
   height: 100vh;
-  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 15vh;
 }
 
 .nav-header {
@@ -246,10 +256,12 @@ input#check {
 }
 
 #carta {
+  padding-top: 15vh;
   background-color: #d3d8c9;
   width: 100%;
-  height: 700px;
+  height: 86vh;
   }
+
 /*tititititititititititititititititititititititititititititiittiititiititititititititiititititit*/
 @keyframes titilar {
   0% {
