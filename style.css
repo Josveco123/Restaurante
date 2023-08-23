@@ -322,18 +322,14 @@ background-color: #000;
   height: 550px;
 }
 
-#graba {
+#graba img {
   margin-top: 0;
   width: 17rem;
-  height: 17rem;
-}
+  height: auto;
 
-#localizacion {
-  margin-top: 4px;
-  margin-bottom: 0;
-  width: 17rem;
-  height: 15rem;
-  background-color: rgb(184, 108, 10);
+}
+.img1 {
+  margin-bottom: 30px;
 }
 
 #carrusel {
